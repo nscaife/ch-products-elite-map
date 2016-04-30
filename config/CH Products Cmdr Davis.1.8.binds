@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <Root PresetName="CH Products Cmdr Davis" MajorVersion="1" MinorVersion="8">
-	<KeyboardLayout>en-GB</KeyboardLayout>
+	<KeyboardLayout>en-US</KeyboardLayout>
 	<LockedDevice>{NoDevice}</LockedDevice>
 	<MouseXMode Value="" />
 	<MouseXDecay Value="1" />
@@ -16,9 +16,9 @@
 	<MouseLinearity Value="1.00000000" />
 	<MouseGUI Value="0" />
 	<YawAxisRaw>
-		<Binding Device="068EC010" Key="Joy_UAxis" />
-		<Inverted Value="0" />
-		<Deadzone Value="0.00000000" />
+		<Binding Device="068EC010" Key="Joy_VAxis" />
+		<Inverted Value="1" />
+		<Deadzone Value="0.22500391" />
 	</YawAxisRaw>
 	<YawLeftButton>
 		<Primary Device="Keyboard" Key="Key_U" />
@@ -665,6 +665,12 @@
 		<ToggleOn Value="0" />
 	</ToggleDriveAssist>
 	<DriveAssistDefault Value="0" />
+	<MouseBuggySteeringXMode Value="" />
+	<MouseBuggySteeringXDecay Value="1" />
+	<MouseBuggyRollingXMode Value="" />
+	<MouseBuggyRollingXDecay Value="1" />
+	<MouseBuggyYMode Value="" />
+	<MouseBuggyYDecay Value="1" />
 	<SteeringAxis>
 		<Binding Device="068EC010" Key="Joy_XAxis" />
 		<Inverted Value="0" />
@@ -777,6 +783,7 @@
 		<Secondary Device="{NoDevice}" Key="" />
 		<ToggleOn Value="0" />
 	</BuggyToggleReverseThrottleInput>
+	<BuggyThrottleIncrement Value="0.00000000" />
 	<IncreaseSpeedButtonMax>
 		<Primary Device="Keyboard" Key="Key_8" />
 		<Secondary Device="{NoDevice}" Key="" />
